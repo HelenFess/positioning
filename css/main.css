@@ -54,7 +54,6 @@ footer {
 }
 /* Positioning rules starts here */
 
-
 .text-align-center{
     text-align: center;
     background-color: azure;
@@ -69,6 +68,55 @@ footer {
 }
 
 /* Positioning rules ends here */
+
+/* Reponsive 2 column layout starts */
+/* Allows box to take up full space, ignoring padding/margin */
+* {
+    box-sizing: border-box;
+  }
+ 
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    min-height: 300px; /* Can be removed. Only for demonstration */
+    border: 1px solid black;
+  }
+   /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Reponsive 2 column layout starts */
+
+
+/* Responsive rules */
+
+
+
+/* Allows box to take up full space, ignoring padding/margin */
+* {
+    box-sizing: border-box;
+  }
+  
+  
+ /* Create two equal columns that floats next to each other */
+ .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    min-height: 300px; /* Can be removed. Only for demonstration */
+  }
+   /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
 
 /* responsive 2 colum layout starts here */
 
@@ -197,8 +245,10 @@ footer {
     .column {
         width: 100%;
     }
+
+    .column {
+        width: 100%;
+    }
  
-
-
 
     }
