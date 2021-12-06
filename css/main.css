@@ -183,8 +183,24 @@ footer {
 .container {
     display: flex;
     justify-content: space-evenly;
-  }
- 
+}
+
+/* flexible image rules starts here */
+
+
+.flexible img{
+    width:100%;
+
+}
+.margin test > div{
+    margin-auto;
+    width:50%;
+}
+
+
+/* flexible image rules ends here */
+/*  Responsive rules*/
+
 /* DESKTOP */
 @media all and (min-width:1200px) {
     main.wrapper {
