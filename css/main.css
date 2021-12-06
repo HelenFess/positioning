@@ -180,7 +180,7 @@ footer {
 /* Responsive rules */
 
 
-.container {
+.container, .flexible {
     display: flex;
     justify-content: space-evenly;
 }
